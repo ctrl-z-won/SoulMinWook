@@ -260,3 +260,4 @@ numbers.map(n => {
 ```
 true->false로 갈 땐, onUpdate함수를 
 false->true로 갈 땐, state에 info값들을 넣어주는 함수입니다.
+
