@@ -30,7 +30,8 @@ handleCreate = (data) => {
     });
 }
 ```
-위와 같이 this.state.information.push를 사용하면 rerendering이 일어나지 않기 때문에 this.state.information.push를 사용하면 안되고 setState메소드를 사용해야만 합니다.
+위와 같이 this.state.information.push를 사용하면 rerendering이 일어나지 않기 때문에 
+this.state.information.push를 사용하면 안되고 setState메소드를 사용해야만 합니다.
 
 * 불변성을 가져야 하는 이유 :
 
@@ -63,6 +64,7 @@ object !== anotherObject;
 를 하면 object !== anotherObject; => true가 나옵니다.
 
 참고 사이트 : https://immutable-js.github.io/immutable-js/
+
 코드 예제 : https://codesandbox.io/s/1xpzj13yl
 
 
@@ -70,9 +72,7 @@ object !== anotherObject;
 Ref는 focusing을 하거나 특정 돔의 크기를 가지고 오거나 특정 돔의 스크롤 위치를 설정하거나 변수를 가질 때와 같이 직접적으로 접근해야 할 때 사용합니다.
 
 
-1. 
-PhoneForm.js 파일 안에 아래와 같은 코드를 입력해주면 
-handleSubmit메소드 안에 있는 함수 중에 this.input.focus()를 통해서 포커싱을 이동시켜줍니다.
+1. PhoneForm.js 파일 안에 아래와 같은 코드를 입력해주면 handleSubmit메소드 안에 있는 함수 중에 this.input.focus()를 통해서 포커싱을 이동시켜줍니다.
 ```
 import React, { Component } from 'react';
 
@@ -122,8 +122,7 @@ export default PhoneForm;
 ```
 
 
-2. 
-React.createRef()를 이용해서 this.input.current.focus() => current값에 focusing을 해줄 수 있습니다.
+2. React.createRef()를 이용해서 this.input.current.focus() => current값에 focusing을 해줄 수 있습니다.
 ```
 import React, { Component } from 'react';
 
