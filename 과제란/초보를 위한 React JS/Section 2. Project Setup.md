@@ -1,11 +1,7 @@
-# :collision: Section 1. Fundamentals :collision:
+# :collision: Section 2. Project Setup :collision:
 
 
-array operation, arrow function, ... 필요한 것을 배울 것입니다.
-
-
-#### Section 1.1 Arrow Function
-
+#### Section Setting 
 
 Arrow 함수에는 return 함수가 내포되어 있다.
 Function을 Anonymous Function로 만드는 데 좋습니다.
