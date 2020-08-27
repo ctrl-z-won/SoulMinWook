@@ -1,12 +1,9 @@
-# SoulMinWook
-ctrl-z 팀원 설민욱 개인 과제 기록란입니다.
+# ✨ ctrl-z 팀원 설민욱 개인 과제 기록란입니다. ✨ 
 
-# 이 부분은 SAMPLE을 만들기 위한 md문장입니다.
+ctrl-z 스터디 그룹에서 배운 모든 내용과 과제 및 실습코드를 저장해두었습니다.
 
- 1주차 퀴즈 :question:
-:exclamation: 1주차 퀴즈 이후 알아야 하는 점 :exclamation:
+_React_ 를 배울 수 있는 3가지 인터넷 강의를 들으며 서로 배운 내용을 공유하고 알고 있던 내용을 공유하였습니다.
 
-:question:1주차 필기:question:
-:grey_question: 1주차 필기 이후 궁금한 점 :grey_question:
+__Activity period : 2020-03-01 ~ 2020-06-12__  
 
-:collision: Section 0. React는 무엇인가 :collision:
+__Modified date : ~2020-08-27__
